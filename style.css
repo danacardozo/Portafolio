@@ -449,7 +449,65 @@
 	border-radius: 10px;
 	margin-top: -45px;
 }
-
+#about-me .tabs-main .nav-tabs {
+	position: absolute;
+	top: 34px;
+	left: 30px;
+}
+#about-me .tabs-main .nav-tabs li {
+	float: none;
+	margin: 0;
+	padding-bottom: 50px;
+	position: relative;
+}
+#about-me .tabs-main li .tooltips {
+	position: absolute;
+	width: 90px;
+	top: -30px;
+	color: #fff;
+	text-align: center;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	font-size: 12px;
+	text-transform: uppercase;
+	left: -16px;
+	opacity: 0;
+	visibility: hidden;
+	border-radius: 5px;
+}
+#about-me .tabs-main li:hover .tooltips{
+	opacity:1;
+	visibility:visible;
+}
+#about-me .tabs-main .nav-tabs li::before {
+	position: absolute;
+	left: 18px;
+	bottom: 0;
+	width: 2px;
+	height: 100%;
+	content: "";
+	top: 0;
+}
+#about-me .tabs-main .nav-tabs li:last-child:before{
+	display:none;
+}
+#about-me .tabs-main .nav-tabs li a {
+	border: 0px;
+	border-radius: 100%;
+	margin: 0;
+	width: 40px;
+	background: #fff;
+	color: #353535;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	padding: 0;
+}
+#about-me .tabs-main .nav-tabs li.active a,
+#about-me .tabs-main .nav-tabs li:hover a{
+	color:#fff;
+}
 #about-me .tab-content {
 	background: #0288b5;
 	padding: 30px 30px 30px 100px;

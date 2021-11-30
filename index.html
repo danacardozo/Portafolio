@@ -127,7 +127,18 @@
 					<div class="col-md-12 col-sm-12 col-xs-12 fix">
 						<!-- About Tab -->
 						<div class="tabs-main">
-							
+
+
+							<!-- Tab Q Menu -->
+							<ul class="nav nav-tabs" role="tablist">
+								<li role="presentation" class="active"><span class="tooltips">Sobre mi</span><a href="#welcome" role="tab" data-toggle="tab"><i class="fa fa-user"></i></a></li>
+	
+								<li role="presentation"><span class="tooltips">Más sobre mi</span><a href="#why" role="tab"  data-toggle="tab"><i class="fas fa-plus"></i></a></li>
+								
+							</ul>
+							<!--/ End Tab Menu -->
+
+
 							<div class="tab-content">
 								<!-- Single Tab -->
 								<div role="tabpanel" class="tab-pane fade in active" id="welcome">
@@ -159,7 +170,27 @@
 									</div>
 								</div>
 								<!-- End Single Tab -->
-								
+
+						
+								<!-- Single Tab -->
+								<div role="tabpanel" class="tab-pane fade" id="why">
+									<div class="about-text">
+										<h2 class="tab-title">Más sobre mi</h2>
+										<div class="content">
+											<p>
+												¡Hey, gracias por tu interés! Dejame contarte un poco más sobre mí.<br>
+												Siendo sincera, aprendí a programar atravesando varias dificultades, ya que lo hice utilizando dos computadoras antiguas de conectar igualdad. Tuve que utilizar ambas porque tienen poca memoria y con una sola no hubiese podido practicar creando varios proyectos.<br>
+												Una de las computadoras es del 2013, es tan antigua que no soporta Node porque su sistema operativo es windows 7 y tiene 32 bits, si no instalaba Node no podía aprender React, por eso tuve que usar otra computadora prestada que también es bastante antigua, pero como su sistema operativo es windows 8.1 y tiene 64 bits soportó react y finalmente pude aprenderlo.<br>
+												Este es apenas un pequeño resumen de las tantas dificultades que enfrenté a la hora de aprender programación con dos máquinas tan lentas y viejas que a veces ni siquiera encienden y funcionan como quieren ¡Jaja! <br>
+												Decidí incluir esto en el portafolios porque quería dar a conocer que no fueron pocos los obstaculos que me ralentizaron durante mi aprendizaje y siento que es un logro haberlos superado. Mi entusiasmo y ganas de ser una desarrolladora web fue lo que me ayudó día a día a seguir enfocada en mis metas y alcanzarlas.<br>
+												Soy sincera cuando digo que es un sueño conseguir mi primer empleo como desarrolladora Front-End, sé que todavía tengo mucho que aprender y me encantaría seguir creciendo dedicándome al maravilloso mundo de programación.	
+											</p>
+										</div>
+									</div>
+								</div>
+								<!--/ End Single Tab -->
+		
+
 								<!-- Single Tab -->
 								<div role="tabpanel" class="tab-pane fade" id="skills">
 									<div class="about-text">
@@ -261,11 +292,11 @@
 						<!-- portfolio Nav -->
 						<div class="portfolio-nav">
 							<ul>
-								<li class="active" data-filter="*"><span>06</span><i class="fa fa-tasks"></i>Todos mis trabajos</li>
+								<li class="active" data-filter="*"><span>07</span><i class="fa fa-tasks"></i>Mis trabajos</li>
 								<li data-filter=".diseño"><span>05</span><i class="fa fa-pencil"></i>HTML5 y CSS</li>
 								<li data-filter=".bootstrap"><span>01</span><i class="fab fa-bootstrap"></i>Bootstrap</li>
 								<li data-filter=".javascript"><span>05</span><i class="fab fa-js"></i>JavaScript</li>
-								<li data-filter=".react"><span>01</span><i class="fab fa-react"></i>React</li>
+								<li data-filter=".react"><span>02</span><i class="fab fa-react"></i>React</li>
 							</ul>
 						</div>
 						<!-- End portfolio Nav -->
@@ -352,7 +383,7 @@
 									</div>
 									<div class="portfolio-hover">
 										<h4><span>React.js</span><a href="#">Aplicación de clima</a></h4>
-										<p>Aplicación del clima responsiva creada con React.js y BootStrap. </p>
+										<p>Aplicación del clima responsiva creada con React.js y BootStrap, utilizando la api "OpenWeather". </p>
 										<div class="button">
 											<a data-fancybox="gallery" href="images/react-app.png"><i class="fa fa-search"></i></a>
 											<a href="https://danacardozo.github.io/App-Clima-React/" class="primary"><i class="fa fa-link"></i></a>
@@ -373,6 +404,23 @@
 										<div class="button">
 											<a data-fancybox="gallery" href="images/reloj-digital.png"><i class="fa fa-search"></i></a>
 											<a href="https://danacardozo.github.io/Reloj-digital/" class="primary"><i class="fa fa-link"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End portfolio -->		
+							<!-- Single portfolio -->
+							<div class="mix react col-md-4 col-sm-6 col-xs-12 col-fix">
+								<div class="portfolio-single">
+									<div class="portfolio-head">
+										<img src="images/movies.png" alt=""/>
+									</div>
+									<div class="portfolio-hover">
+										<h4><span>Diseño</span><a href="#">Sitio web de Peliculas</a></h4>
+										<p>Sitio web responsivo creado con React, utilizando la api "The Movie DB". </p>
+										<div class="button">
+											<a data-fancybox="gallery" href="images/movies.png"><i class="fa fa-search"></i></a>
+											<a href="https://danacardozo.github.io/movies-react/" class="primary"><i class="fa fa-link"></i></a>
 										</div>
 									</div>
 								</div>
@@ -483,11 +531,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-sm-6 col-xs-12">
-						<!-- Copyright -->
-						<div class="copyright">
-							<p>&copy; <a href="https://www.linkedin.com/in/dana-cardozo/">Dana Cardozo</a></p>
-						</div>
-						<!-- End Copyright -->
+					
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12">
 						<!-- Social -->

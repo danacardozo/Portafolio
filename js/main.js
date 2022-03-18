@@ -96,39 +96,7 @@
 		});
 		
 		
-		/*====================================
-		// Blog Slider
-		======================================*/ 	
-		$("#blog .slide").owlCarousel({
-			loop:true,
-			autoplay:true,
-			autoplayTimeout:3500,
-			smartSpeed: 600,
-			mouseDrag: true,
-			nav:true,
-			navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-			dots:true,
-			responsive:{
-				320: {
-					items: 1,
-					dots:false,
-					nav:false,
-				},
-				480: {
-					items: 1,
-					dots:false,
-					nav:false,
-				},
-				768: {
-					items: 1,
-				},
-				1170: {
-					items: 1,
-				},
-			}
-		});	
-		
-		
+	
 		
 		
 		/*====================================

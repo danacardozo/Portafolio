@@ -1,7 +1,5 @@
 
-/*=======================
-	Header CSS
-=========================*/ 
+/*Header CSS */ 
 #header {
 	top: 0;
 	width: 100%;
@@ -321,13 +319,9 @@
 #header.normal .logo a {
 	color: #353535;
 }
-/*=======================
-	Final Header
-=========================*/ 
+/* Final Heade */ 
 
-/*=======================
-	Personal CSS
-=========================*/  
+/* Personal CSS */  
 #personal-area {
 	background-image: url('images/image3.png');
 	background-size: cover;
@@ -426,9 +420,7 @@
 }
  
 
-/*=======================
-	About Me CSS
-=========================*/
+/* About Me CSS */
 #about-me {
 	padding: 0;
 	z-index: 44;
@@ -640,13 +632,9 @@
 
 
 
-/*=======================
-	End About Me
-=========================*/
+/* End About Me */
 
-/*=======================
-	Service CSS
-=========================*/
+/* Service CSS */
 #my-service {
 	background: #F5F5F5;
 }
@@ -697,13 +685,9 @@
 #my-service .single-service.active p{
 	color:#fff;
 }
-/*=======================
-	Fin Service
-=========================*/
+/* Fin Service */
 
-/*=======================
-    Portfolio CSS
-=========================*/
+/* Portfolio CSS */
 #portfolio {
 	background: #fff;
 	overflow: hidden;
@@ -1089,13 +1073,10 @@
 	margin-top:30px;
 	cursor:pointer;
 }
-/*=======================
-    Fin Portfolio
-=========================*/
+/* 
+    Fin Portfolio */
 
-/*=======================
-  Contact CSS
-=========================*/
+/* Contact CSS */
 #contact {
 	position: relative;
 	top: 215px;
@@ -1148,13 +1129,10 @@
 #contact .single-address p{
 	color:#555;
 }
-/*=======================
-  Fin CONTACT
-=========================*/
+/*= Fin CONTACT */
 
-/*=======================
- Background image
-=========================*/
+/* 
+ Background image */
 #background.section {
 	padding: 200px 0 70px;
 	background: #F8F8F8;
@@ -1178,15 +1156,12 @@
 #background.style2{
 	padding:80px 0;
 }
-/*=======================
-  Fin Background Image
-=========================*/
+/* 
+  Fin Background Image */
 
 
 
-/*=======================
-  Footer Top CSS
-=========================*/ 
+/* Footer Top CSS */ 
 #footer-top {
 	background: #fff;
 	text-align: center;
@@ -1259,13 +1234,9 @@
 	background:transparent;
 
 }
-/*=======================
-  End Footer Top
-=========================*/ 
+/* End Footer Top */ 
 
-/*=======================
-  Footer CSS
-=========================*/
+/*  Footer CSS */
 #footer {
 	background: #333;
 	padding: 15px 0 10px;
@@ -1314,6 +1285,4 @@
 	font-size:15px;
 	color: #fff;
 }
-/*=======================
-  End Footer
-=========================*/
+/* End Footer */

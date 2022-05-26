@@ -22,7 +22,7 @@ jQuery(document).ready(function($){
 		singleLetters($('.cd-headline.letters').find('b'));
 		
 		animateHeadline($('.cd-headline'));
-	}
+	} 
 
 	function singleLetters($words) {
 		$words.each(function(){
